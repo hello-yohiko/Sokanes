@@ -1,0 +1,261 @@
+*
+{
+
+	/*  */
+
+	/* style de base pour les elements */
+	word-wrap: break-word;
+
+
+	margin: 0;
+	padding: 0;
+
+	outline: none;
+
+	user-select: none;
+}
+
+li
+{
+	list-style: none;
+}
+
+body
+{
+	background: var(--grey);
+	position: relative;
+
+	/* style de base pour les elements */
+	font-family: "Roboto", sans-serif;
+	color: rgba(var(--g1));
+
+	display: grid;
+	grid-template-columns: 260px 1fr;
+	grid-row: 1fr;
+
+	height: 100%;
+}
+
+header
+{
+	background: var(--grey);
+
+	display: block;
+}
+
+header .content-thread
+{
+	background: ;
+}
+
+header .content-thread .header
+{
+	background:;
+	padding: 4px 12px;
+
+}
+
+header .content-thread .header .form-sreach
+{
+	margin: 8px 0;
+}
+
+header .content-thread .header .block-input
+{
+	background: var(--grey2);
+	display: block;
+	padding: 8px 12px;
+	border-radius: .5em;
+}
+
+header .content-thread .header .block-input input
+{
+	width: 100%;
+
+	border: none;
+	background: transparent;
+
+	font-size: .93em;
+}
+
+header .content-thread .header .title
+{
+	text-transform: uppercase;
+	color: var(--black1);
+
+	font-weight: bold;
+	font-size: .9em;
+}
+
+
+header .content-thread .content
+{
+	background:;
+	padding: 8px;
+}
+
+header .content-thread .content li
+{
+	display: block;
+}
+
+header .content-thread .content li a
+{
+	padding: 6px 10px;
+	margin-top: 12px;
+
+	background: transparent;
+	color: var(--black2);
+
+	text-decoration: none;
+
+	display: block;
+
+	border-radius: .4em;
+	opacity: .4;
+}
+
+header .content-thread .content li:nth-child(1) a
+{
+	margin-top: 0px;
+}
+
+header .content-thread .content li a:hover
+{
+	background: var(--grey2);
+	box-shadow: 0px 2px 1px .3px var(--grey1);
+
+	opacity: 1;
+}
+
+main
+{
+	background: var(--white);
+
+	display: block;
+
+	border-radius: 7px 0px 0px 7px;
+
+	box-shadow: 0px 0px 8px 1px var(--grey1);
+
+	overflow: hidden;
+}
+
+main nav
+{
+	background: var(--grey2);
+
+	display: block;
+
+	width: 100%;
+
+	padding: 13px 18px;
+
+	box-shadow: 0px 0px 8px 1px var(--grey1);
+}
+
+main nav .content-nav
+{
+	display: grid;
+	grid-template-columns: 50px 1fr 200px;
+}
+
+main nav .information-channel
+{
+
+}
+
+main nav .information-channel span.title
+{
+	font-size: 1.1em;
+
+	font-family: "Conamore";
+	font-weight: 500;
+
+	letter-spacing: .02em;
+
+	color: var(--black2);
+
+	opacity: .5;
+}
+
+main nav .icone-element
+{
+	background: ;
+
+	font-size: 1.6em;
+
+	color: var(--black1);
+	opacity: .4;
+}
+
+
+
+
+
+
+
+
+main .listen#topthread
+{
+
+	max-width: 800PX;
+}
+
+main .listen#topthread .list-header
+{
+	background-color: blueviolet;
+	padding: 6px 12px;
+}
+
+main .listen#topthread .element
+{
+	margin-top: 4px;
+}
+
+main .listen#topthread .element:hover
+{
+	background: var(--grey);
+}
+
+main .listen#topthread .element .content-cont
+{
+	display: flex;
+	margin:  0 12px;
+	border-bottom: solid 1px var(--grey);
+}
+
+main .listen#topthread .element .left-cont,
+main .listen#topthread .element .center-cont,
+main .listen#topthread .element .right-cont
+{
+
+	display: flex;
+	align-items: center;
+}
+
+main .listen#topthread .element .left-cont
+{
+	width: 40px;
+	height: 40px;
+
+
+	justify-content: center;
+}
+
+main .listen#topthread .element .center-cont
+{
+	width: 100%;
+}
+
+main .listen#topthread .element .right-cont
+{
+	min-width: 40px;
+	justify-content: center;
+}
+
+main .listen#topthread .element .left-cont .icone
+{
+	font-size: 1.7em;
+	color: var(--grey1);
+}

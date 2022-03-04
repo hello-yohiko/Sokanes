@@ -1,0 +1,249 @@
+/*
+    ---- update media ------
+*/
+
+/* update contenaire */
+
+@media (min-width: 500px) {
+    .contenaire
+    {
+        margin: 0 16px;
+    }
+}
+@media (min-width: 992px) {
+    .contenaire
+    {
+        width: 870px;
+        margin: 0 auto;
+    }
+
+    .content-list.archive-cat .while-content .element-card.verticale
+    {
+        width: 420px;
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .while-content .element-card.verticale .min-img-art
+    {
+
+        height: 235px;
+    }
+
+    /* home */
+    .home.banner-information-service
+    {
+        display: flex;
+    }
+    .home.banner-information-service .element-user-inter
+    {
+        width: 400px;
+        margin: 10px 20px;
+    }
+
+    .home.publication-rows .publication-information h1
+    {
+        font-size: 2.8em;
+        line-height: 1.5em;
+    }
+
+    .banner-information .banner-contenaire
+    {
+        padding: 110px 70px;
+    }
+
+    .while-user-helper .card .big-text
+    {
+        font-size: 2.5em;
+    }
+
+    .user-list .card-use
+    {
+        margin: 0 18px;
+        width: 220px;
+    }
+
+    .home.publication-rows .contenaire
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home.publication-rows .publication-information
+    {
+        margin: 0 20px;
+    }
+
+    .home.publication-rows .while-content
+    {
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+
+    .banner-information .banner-contenaire .information h1
+    {
+        font-size: 4em;
+
+        width: 600px;
+        line-height: 1.7em;
+    }
+
+    .banner-information .banner-contenaire .information p
+    {
+        position: relative;
+        display: block;
+        margin:  10px 0;
+        font-size: 1.1em;
+        line-height: 2em;
+
+        padding: 0 10px;
+
+        margin-bottom: 50px;
+
+        width: 600px;
+    }
+
+    .while-user-helper
+    {
+        width: 80%;
+    }
+
+
+    /* poster */
+
+    .publication-user
+    {
+        display: grid;
+        grid-template-columns: 1fr 390px;
+    }
+
+    .publication-user .left-cont .information-poster.one-view .title
+    {
+        font-size: 2.6em;
+    }
+
+    .publication-user .left-cont .information-poster.one-view .title:before
+    {
+        display: block;
+    }
+
+    .publication-user .left-cont .information-poster.one-view .date-update
+    {
+        font-size: 1em;
+    }
+
+    .publication-user .left-cont .content-poster
+    {
+        margin: 0 auto;
+    }
+
+    .publication-user .left-cont .content-poster a
+    {
+        font-size: 1em;
+    }
+
+
+
+
+    footer
+    {
+        padding: 4em 10%;
+    }
+
+
+    footer .footer-content .contnet-colluns
+    {
+        display: flex;
+    }
+
+    footer .footer-content .column
+    {
+        text-align: left;
+        min-width: 150px;
+        max-width: 100%;
+    }
+
+
+    .naviguation-bar .contenaire
+    {
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+    }
+
+    .naviguation-bar li
+    {
+        display: inline-block;
+    }
+
+    .naviguation-bar .center-cont
+    {
+        display: flex;
+    }
+
+    .naviguation-bar .center-cont,
+    .naviguation-bar .right-cont ul
+    {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenaire
+    {
+        width: 1170px;
+    }
+
+    .content-list.archive-cat .while-content .element-card.verticale
+    {
+        width: 277px;
+    }
+
+    .while-content .element-card.verticale .min-img-art
+    {
+
+        height: 185px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .contenaire
+    {
+        width: 1300px;
+    }
+
+    .content-list.archive-cat .while-content .element-card.verticale
+    {
+        width: 310px;
+    }
+
+    .while-content .element-card.verticale .min-img-art
+    {
+
+        height: 205px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .contenaire
+    {
+        width: 1700px;
+    }
+
+    .content-list.archive-cat .while-content .element-card.verticale
+    {
+        width: 323px;
+    }
+
+    .while-content .element-card.verticale .min-img-art
+    {
+
+        height: 205px;
+    }
+}
